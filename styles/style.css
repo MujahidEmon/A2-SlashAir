@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap');
+
+* {
+    /* width: 1170px; */
+    /* margin: 0 auto; */
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* shared styles */
+.btn-primary {
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+
+    justify-content: center;
+}
+}
+
+.btn-primary-width {
+    width: 174px;
+    height: 52px;
+}
+
+
+/* nav section starts here */
+nav {
+    /* max-height: 45px; */
+    max-width: 1170px;
+    margin: 0 auto;
+    /* border: 2px solid aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+}
+
+.nav-icon {
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-icon>img {
+    width: 100px;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.nav-content {
+    /* max-width: 50%; */
+}
+
+nav>.nav-content>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+}
+
+.nav-content li {
+    list-style: none;
+}
+
+header>nav>.nav-content li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav .nav-content ul .nav-red {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* banner section starts */
+.banner {
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-top: 49px; */
+    margin: 49px auto 100px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../styles/images/Group\ 13\ \(1\)\ \(1\).png');
+    background-position: center;
+}
+
+.banner>.explore {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    /* width: 596px;
+    height: 80px; */
+    text-align: center;
+    /* margin: 106px auto 24px; */
+    padding-top: 106px;
+    margin-bottom: 0;
+
+}
+
+.banner>.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    /* 162.5% */
+}
+
+.banner>.banner-nav {
+    width: max-content;
+    display: flex;
+    padding: 16px;
+    margin: 0 auto;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner>.banner-nav input {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    /* text-align: center; */
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner>.banner-nav>button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* popular tour section */
+.popular-tours {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    gap: 53px;
+    border: 2px solid #FF5400;
+}
+
+.popular-tours .popular-tour-content {
+    width: 577px;
+}
+
+.popular-tours .popular-tour-content .our-popular {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.popular-tours .popular-tour-content .popular-start {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.popular-tours .popular-tour-content .three-places li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* 162.5% */
+    width: 525px;
+    list-style: disc;
+    margin-left: 15px;
+}
+
+.popular-tours .popular-tour-content .popular-end {
+    width: 530px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+    /* 162.5% */
+}
+
+.popular-image {
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
