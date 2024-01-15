@@ -48,7 +48,7 @@ nav {
 }
 
 .nav-icon>img {
-    width: 100px;
+    width: 150px;
     height: 100%;
     padding-left: 20px;
 }
@@ -234,19 +234,27 @@ nav .nav-content ul .nav-red {
     margin: 24px auto 48px;
 }
 
-.grid {
-    max-width: 1170px;
-    margin: 0 auto;
+.grid .row1, .grid .row2, .grid .row3{
+    width: 1170px;
+    margin: 24px auto;
+}
+ .grid h3{
+    color:#FFF;
+    position: relative;
+    font-size: 28px;
+    font-weight: 800;
     text-align: center;
-    align-items: c;
-    justify-content: center;
-    color: #FFF;
+    align-items: center;
 
 }
 
-.destination .grid .row1 {
+.destination .grid .row1,
+.destination>.grid>.row2,
+.destination>.grid>.row3 {
     display: flex;
+    /* flex-direction: row; */
     justify-content: space-between;
+    /* width: 1170px; */
 }
 
 .grid .row1 .maldives {
@@ -255,15 +263,61 @@ nav .nav-content ul .nav-red {
     background-position: center;
     width: 573px;
     height: 300px;
-    font-size: 28px;
-    font-weight: 800;
+    
 }
+
 .grid .row1 .indo {
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../styles/images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
-    background-position:center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../styles/images/Rectangle\ 8.png');
+    background-position: center;
     width: 573px;
-    height: 300px; 
-    font-size: 28px;
-    font-weight: 800;
+    height: 300px;
+}
+
+/* .grid .row1 {
+    margin-bottom: 0;
+} */
+
+.grid .row2 {
+    margin-top: 0;
+}
+
+.grid .row2 .Srilanka {
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../styles/images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+}
+
+.grid .row2 .north-america {
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../styles/images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+}
+
+.grid .row2 .kashmir {
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../styles/images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+}
+
+.grid .row3 .Bd {
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../styles/images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+}
+
+.grid .row3 .Bandar {
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../styles/images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
 }

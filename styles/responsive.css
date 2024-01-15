@@ -1,6 +1,8 @@
 @media screen and (max-width: 600px) {
     nav {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     nav>.nav-content>ul {
@@ -92,17 +94,23 @@
         font-size: 14px;
     }
 
-    .grid .row1{
+    .grid .row1,.grid .row2,.grid .row3{
         flex-direction: column;
+        width: 335px;
+        margin-bottom: 0;
 
         
 }
-.grid .row1 .maldives, .grid .row1 .indo{
+.grid>.row3{
+    margin-top: 0;
+}
+.grid .row1 .maldives, .grid .row1 .indo, .grid .row2 .kashmir, .grid .row2 .north-america, .grid .row2 .Srilanka, .grid .row3 .Bd, .grid .row3 .Bandar{
     width: 335px;
     height: 176px;
     flex-shrink: 0;
-    margin: 16px;
+    margin: 16px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 
-}
 }
