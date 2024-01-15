@@ -57,18 +57,20 @@
 
     .popular-tours {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 16px;
     }
 
     .popular-tours .popular-tour-content,
     .popular-tours .popular-tour-content .popular-end,
     .popular-tours .popular-tour-content .three-places li,
-    .popular-tours .popular-tour-content .popular-start
-    {
+    .popular-tours .popular-tour-content .popular-start {
         width: 335px;
         font-size: 14px;
     }
-    .popular-tours .popular-tour-content .our-popular{
+
+    .popular-tours .popular-tour-content .our-popular {
         width: 335px;
         font-size: 24px;
     }
@@ -79,4 +81,28 @@
         flex-shrink: 0;
 
     }
+
+    /* destination */
+    .destination .destiny-head {
+        font-size: 20px;
+    }
+
+    .destination .destiny-para {
+        width: 309px;
+        font-size: 14px;
+    }
+
+    .grid .row1{
+        flex-direction: column;
+
+        
+}
+.grid .row1 .maldives, .grid .row1 .indo{
+    width: 335px;
+    height: 176px;
+    flex-shrink: 0;
+    margin: 16px;
+    background-position: center;
+
+}
 }

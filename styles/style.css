@@ -159,7 +159,7 @@ nav .nav-content ul .nav-red {
     margin: 0 auto;
     display: flex;
     gap: 53px;
-    border: 2px solid #FF5400;
+    /* border: 2px solid #FF5400; */
 }
 
 .popular-tours .popular-tour-content {
@@ -210,4 +210,60 @@ nav .nav-content ul .nav-red {
     flex-shrink: 0;
     border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.destination .destiny-head {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-content {
+    /* max-width: 1170px; */
+    margin: 100px auto 48px;
+}
+
+.destination .destiny-para {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 690px;
+    margin: 24px auto 48px;
+}
+
+.grid {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: c;
+    justify-content: center;
+    color: #FFF;
+
+}
+
+.destination .grid .row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid .row1 .maldives {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../styles/images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    width: 573px;
+    height: 300px;
+    font-size: 28px;
+    font-weight: 800;
+}
+.grid .row1 .indo {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../styles/images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
+    background-position:center;
+    width: 573px;
+    height: 300px; 
+    font-size: 28px;
+    font-weight: 800;
 }
