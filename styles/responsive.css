@@ -54,7 +54,7 @@
         margin-bottom: 32px;
         /* 150% */
     }
-    
+
     .banner>.banner-nav {
         display: flex;
         width: 287px;
@@ -70,18 +70,20 @@
         height: 52px;
         flex-shrink: 0;
     }
-    
+
     .banner>.banner-nav select {
         width: 255px;
         height: 52px;
         flex-shrink: 0;
     }
-    .banner> .banner-nav >button{
+
+    .banner>.banner-nav>button {
         width: 255px;
         /* text-align: center; */
-        
+
     }
-    .banner> .banner-nav >button{
+
+    .banner>.banner-nav>button {
         justify-content: center;
         gap: 0;
         /* padding left: 75px; */
@@ -93,6 +95,7 @@
         justify-content: center;
         align-items: center;
         padding: 16px;
+        margin-bottom: 0;
     }
 
     .popular-tours .popular-tour-content,
@@ -116,6 +119,11 @@
     }
 
     /* destination */
+    .destination {
+
+        margin-top: 24px;
+    }
+
     .destination .destiny-head {
         font-size: 20px;
     }
@@ -161,6 +169,7 @@
     /* chooseUs Sec */
     .chooseUs {
         width: 335px;
+        margin-top: 0;
     }
 
     .chooseUs .chead {
@@ -328,13 +337,14 @@
         margin-top: 16px;
         width: 287px;
         font-size: 10px;
+        margin-bottom: 8px;
     }
 
     footer .social {
         height: 24px;
         width: 24px;
-        margin-top: 16px;
-        gap: 4px;
+        margin-top: 0;
+        gap: 8px;
         margin-bottom: 16px;
     }
 
@@ -345,9 +355,9 @@
 
     footer .slash {
         /* justify-content: space-between; */
-        display: flex;
+        flex-direction: column;
         justify-content: center;
-        gap: -40px;
+        /* gap: -40px; */
         margin-top: 30px;
         margin-bottom: 0;
         font-size: 21px;
@@ -360,5 +370,9 @@
     footer .footer-img {
         width: 40px;
         height: 40px;
+    }
+    footer .copyright{
+        margin-top: 8px;
+        font-size: 10px;
     }
 }
