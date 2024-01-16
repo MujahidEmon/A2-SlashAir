@@ -7,6 +7,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        vertical-align: middle;
+    }
+
+    .nav-icon>img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .nav-icon>h3 {
+        font-size: 20px;
     }
 
     nav>.nav-content>ul {
@@ -20,6 +30,7 @@
         width: 335px;
         height: 483px;
         flex-shrink: 0;
+        margin-bottom: 0;
     }
 
     .banner>.explore {
@@ -43,7 +54,7 @@
         margin-bottom: 32px;
         /* 150% */
     }
-
+    
     .banner>.banner-nav {
         display: flex;
         width: 287px;
@@ -54,234 +65,300 @@
         align-items: center;
     }
 
-    
-    .banner>.banner-nav input,
-    .banner>.banner-nav button {
+    .banner>.banner-nav input {
         width: 255px;
         height: 52px;
         flex-shrink: 0;
     }
+    
+    .banner>.banner-nav select {
+        width: 255px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+    .banner> .banner-nav >button{
+        width: 255px;
+        /* text-align: center; */
+        
+    }
+    .banner> .banner-nav >button{
+        justify-content: center;
+        gap: 0;
+        /* padding left: 75px; */
+    }
 
-.popular-tours {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-}
+    .popular-tours {
+        margin-top: 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+    }
 
-.popular-tours .popular-tour-content,
-.popular-tours .popular-tour-content .popular-end,
-.popular-tours .popular-tour-content .three-places li,
-.popular-tours .popular-tour-content .popular-start {
-    width: 335px;
-    font-size: 14px;
-}
+    .popular-tours .popular-tour-content,
+    .popular-tours .popular-tour-content .popular-end,
+    .popular-tours .popular-tour-content .three-places li,
+    .popular-tours .popular-tour-content .popular-start {
+        width: 335px;
+        font-size: 14px;
+    }
 
-.popular-tours .popular-tour-content .our-popular {
-    width: 335px;
-    font-size: 24px;
-}
+    .popular-tours .popular-tour-content .our-popular {
+        width: 335px;
+        font-size: 24px;
+    }
 
-.popular-image {
-    width: 335px;
-    height: 342px;
-    flex-shrink: 0;
+    .popular-image {
+        width: 335px;
+        height: 342px;
+        flex-shrink: 0;
 
-}
+    }
 
-/* destination */
-.destination .destiny-head {
-    font-size: 20px;
-}
+    /* destination */
+    .destination .destiny-head {
+        font-size: 20px;
+    }
 
-.destination .destiny-para {
-    width: 309px;
-    font-size: 14px;
-}
+    .destination .destiny-para {
+        width: 309px;
+        font-size: 14px;
+    }
 
-.grid .row1,
-.grid .row2,
-.grid .row3 {
-    flex-direction: column;
-    width: 335px;
-    margin-bottom: 0;
-
-
-}
-
-.grid>.row3 {
-    margin-top: 0;
-}
-
-.grid .row1 .maldives,
-.grid .row1 .indo,
-.grid .row2 .kashmir,
-.grid .row2 .north-america,
-.grid .row2 .Srilanka,
-.grid .row3 .Bd,
-.grid .row3 .Bandar {
-    width: 335px;
-    height: 176px;
-    flex-shrink: 0;
-    margin: 16px auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
+    .grid .row1,
+    .grid .row2,
+    .grid .row3 {
+        flex-direction: column;
+        width: 335px;
+        margin-bottom: 0;
 
 
-/* chooseUs Sec */
-.chooseUs {
-    width: 335px;
-}
+    }
 
-.chooseUs .chead {
-    margin-top: 0;
-    margin-bottom: 16px;
-    font-size: 20px;
-}
+    .grid>.row3 {
+        margin-top: 0;
+    }
 
-.chooseUs .cpara {
-    margin-top: 0;
-    font-size: 14px;
-    width: 309px;
-}
+    .grid .row1 .maldives,
+    .grid .row1 .indo,
+    .grid .row2 .kashmir,
+    .grid .row2 .north-america,
+    .grid .row2 .Srilanka,
+    .grid .row3 .Bd,
+    .grid .row3 .Bandar {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin: 16px auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 
-.chooseUs-body {
-    flex-direction: column;
-    gap: 16px;
-}
 
-.chooseUs-body .cleft {
-    width: 335px;
-    height: 289px;
-    flex-shrink: 0;
-}
+    }
 
-.chooseUs-body .cleft .hotel {
-    width: 48px;
-    height: 48px;
-    flex-shrink: 0;
-    margin-top: 32px;
-    margin-left: 32px;
-    margin-bottom: 0;
-}
 
-.chooseUs-body .cleft .hotel-head {
-    font-size: 20px;
-    margin-top: 16px;
-    margin-left: 32px;
-    margin-bottom: 0;
-}
+    /* chooseUs Sec */
+    .chooseUs {
+        width: 335px;
+    }
 
-.chooseUs-body .cleft .hotel-para,
-.chooseUs-body .cright .map-para,
-.chooseUs-bottom .price-para {
-    width: 271px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 16px;
-    margin-left: 32px;
-}
+    .chooseUs .chead {
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
 
-.chooseUs-body .cright {
-    border-radius: 16px;
-    width: 335px;
-    height: 289px;
-}
+    .chooseUs .cpara {
+        margin-top: 0;
+        font-size: 14px;
+        width: 309px;
+    }
 
-.chooseUs-body .cright .map,
-.chooseUs-bottom .price {
-    width: 48px;
-    height: 48px;
-    margin-top: 32px;
-    margin-left: 32px;
-    margin-bottom: 0;
-}
+    .chooseUs-body {
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 0;
+    }
 
-.chooseUs-body .cright .map-head,
-.chooseUs-bottom .price-head {
-    font-size: 20px;
-    margin-top: 16px;
-    margin-left: 32px;
-    margin-bottom: 0;
-}
+    .chooseUs-body .cleft {
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
 
-.chooseUs-bottom {
-    width: 335px;
-    height: 289px;
-    margin: 16px auto;
-}
+    .chooseUs-body .cleft .hotel {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-bottom: 0;
+    }
 
-/* Choose us section Completed */
-/* newsletter section */
-.newsletter {
-    width: 375px;
-    flex-direction: column;
-    gap: 16px;
-    /* margin:24px auto ; */
-    /* margin:24px auto ; */
-}
+    .chooseUs-body .cleft .hotel-head {
+        font-size: 20px;
+        margin-top: 16px;
+        margin-left: 32px;
+        margin-bottom: 0;
+    }
 
-.newsletter-content {
-    width: 335px;
-    height: 353px;
-}
+    .chooseUs-body .cleft .hotel-para,
+    .chooseUs-body .cright .map-para,
+    .chooseUs-bottom .price-para {
+        width: 271px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 16px;
+        margin-left: 32px;
+    }
 
-.newsletter-content .news-head {
-    font-size: 20px;
-    margin-top: 24px;
-    margin-left: 23px;
-}
+    .chooseUs-body .cright {
+        border-radius: 16px;
+        width: 335px;
+        height: 289px;
+    }
 
-.newsletter-content .news-para {
-    width: 270px;
-    margin-top: 8px;
-    margin-left: 23px;
-    margin-bottom: 16px;
+    .chooseUs-body .cright .map,
+    .chooseUs-bottom .price {
+        width: 48px;
+        height: 48px;
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-bottom: 0;
+    }
 
-}
+    .chooseUs-body .cright .map-head,
+    .chooseUs-bottom .price-head {
+        font-size: 20px;
+        margin-top: 16px;
+        margin-left: 32px;
+        margin-bottom: 0;
+    }
 
-.newsletter-content hr {
-    width: 288px;
-}
+    .chooseUs-bottom {
+        width: 335px;
+        height: 289px;
+        margin: 16px auto;
+    }
 
-.newsletter-content .news-form {
-    width: 288px;
-    margin: 16px 23px;
-}
+    /* Choose us section Completed */
+    /* newsletter section */
+    .newsletter {
+        margin-top: 0;
+        width: 375px;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+        /* margin:24px auto ; */
+        /* margin:24px auto ; */
+    }
 
-.newsletter-content .news-form>#name,
-.newsletter-content .news-form>#email,
-.newsletter-content .news-form>.Subscribe {
-    border-radius: 8px;
-    /* background: rgba(19, 19, 24, 0.05); */
-    width: 288px;
-}
+    .newsletter-content {
+        width: 335px;
+        height: 353px;
+    }
 
-.newsletter-image {
-    width: 335px;
-    height: 300px;
-    flex-shrink: 0;
-}
+    .newsletter-content .news-head {
+        font-size: 20px;
+        margin-top: 24px;
+        margin-left: 23px;
+    }
 
-.newsletter-image .news-img-text {
-    width: 214.023px;
-    height: 79.268px;
-    transform: rotate(-19.628deg);
-    flex-shrink: 0;
-    position: relative;
-    top: 190px;
-    left: 50px;
-}
+    .newsletter-content .news-para {
+        width: 270px;
+        margin-top: 8px;
+        margin-left: 23px;
+        margin-bottom: 16px;
 
-.newsletter-image .news-img-text .nimg-para {
-    font-size: 15.854px;
-}
+    }
 
-.newsletter-image .news-img-text .nimg-head {
-    font-size: 21.138px;
-}
+    .newsletter-content hr {
+        width: 288px;
+    }
+
+    .newsletter-content .news-form {
+        width: 288px;
+        margin: 16px 23px;
+    }
+
+    .newsletter-content .news-form>#name,
+    .newsletter-content .news-form>#email,
+    .newsletter-content .news-form>.Subscribe {
+        border-radius: 8px;
+        /* background: rgba(19, 19, 24, 0.05); */
+        width: 288px;
+    }
+
+    .newsletter-image {
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
+    }
+
+    .newsletter-image .news-img-text {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        position: relative;
+        top: 190px;
+        left: 50px;
+    }
+
+    .newsletter-image .news-img-text .nimg-para {
+        font-size: 15.854px;
+    }
+
+    .newsletter-image .news-img-text .nimg-head {
+        font-size: 21.138px;
+    }
+
+    /* footer */
+    footer {
+        padding: 0;
+        /* margin: 0; */
+        width: 375px;
+        height: 309px;
+        flex-shrink: 0;
+    }
+
+    footer .foot-para {
+        margin-top: 16px;
+        width: 287px;
+        font-size: 10px;
+    }
+
+    footer .social {
+        height: 24px;
+        width: 24px;
+        margin-top: 16px;
+        gap: 4px;
+        margin-bottom: 16px;
+    }
+
+    footer .footline {
+        width: 335px;
+        height: 1px;
+    }
+
+    footer .slash {
+        /* justify-content: space-between; */
+        display: flex;
+        justify-content: center;
+        gap: -40px;
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-size: 21px;
+    }
+
+    .slash>h2 {
+        font-size: 21px;
+    }
+
+    footer .footer-img {
+        width: 40px;
+        height: 40px;
+    }
 }
