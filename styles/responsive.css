@@ -121,7 +121,7 @@
     /* destination */
     .destination {
 
-        margin-top: 24px;
+        margin-top: 0;
     }
 
     .destination .destiny-head {
@@ -375,4 +375,34 @@
         margin-top: 8px;
         font-size: 10px;
     }
+    .extra{
+        margin-top: 0;
+        margin-bottom: 24px;
+        width: 335px;
+        height: max-content;
+    }
+    .cards{
+        flex-direction: column;
+        margin: 0;width: 335px;
+    }
+    .rome img, .hawaii img , .new-york img{
+        width: 335px;
+    }
+    .rome-content,.hawaii-content, .new-york-content{
+        width: 300px;
+        margin: 5px auto;
+    }
+    .rome, .hawaii, .new-york{
+        width: 335px;
+        height: 100%
+        background-color: #FFF;
+        border-radius: 16px;
+        box-shadow: 10px 10px 20px lightblue;
+    }
+    .extra .trend{
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    
 }

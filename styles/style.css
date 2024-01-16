@@ -174,9 +174,11 @@ nav .nav-content ul .nav-red {
     font-size: 16px;
     font-weight: 400;
 }
-.banner>.banner-nav>button p{
+
+.banner>.banner-nav>button p {
     text-align: center;
 }
+
 .banner>.banner-nav>button {
     border-radius: 8px;
     background: #FF5400;
@@ -785,3 +787,66 @@ footer .copyright {
 }
 
 /* footer section */
+
+/* Extra Section */
+.extra {
+    width: 1170px;
+    height: 550px;
+    margin: 110px auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+   
+}
+.extra .trend{
+    font-size: 36px;
+    margin-top: 10px;
+    font-weight: 800;
+    margin-left: 20px;
+    padding-top:  10px;
+    text-align: left;
+}
+.extra .trend .popular{
+    color: #FF5400;
+}
+.cards{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 260px 260px 260px; */
+    gap: 30px;
+    mar
+}
+.rome, .hawaii, .new-york{
+    width: 360px;
+    height: 100%
+    background-color: #FFF;
+    border-radius: 16px;
+    box-shadow: 10px 10px 20px lightblue;
+
+}
+
+.rome img, .hawaii img , .new-york img{
+    width: 360px;
+    border-radius: 16px 0;
+}
+.rome-content,.hawaii-content, .new-york-content{
+    width: 330px;
+    margin: 10px auto;
+}
+.cards>.rome:hover{
+    transform: scale(1.1);
+}
+.cards>.hawaii:hover{
+    transform: scale(1.1);
+}
+.cards>.new-york:hover{
+    transform: scale(1.1);
+}
+.hawaii-content .hawaii-para,
+.rome-content .rome-para,
+.new-york-content .new-york-para{
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 20px;
+    text-align: justify;
+}
