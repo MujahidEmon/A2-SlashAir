@@ -82,11 +82,13 @@
         /* text-align: center; */
 
     }
-
-    .banner>.banner-nav>button {
+    .banner>.banner-nav>button>img{
+        padding-left: 75px;
+    }
+    .banner>.banner-nav>button>p{
         justify-content: center;
         gap: 0;
-        /* padding left: 75px; */
+        padding-right: 75px;
     }
 
     .popular-tours {
